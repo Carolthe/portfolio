@@ -1,23 +1,35 @@
+/* Estiliza a área inteira da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+    background-color: #f0f0f0; /* Cor de fundo da barra de rolagem */
+}
+
+/* Estiliza a parte que se move da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: rgb(60, 138, 255); /* Cor da parte móvel */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estiliza a parte da barra de rolagem que não é coberta pela parte móvel */
+::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Cor do trilho */
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    font-family: "Zen Dots", sans-serif;
-}
-
-body{
-    background: rgb(28, 28, 28);
-    cursor: url(./imagens/cursor.png), auto;
+    font-family: "Montserrat", sans-serif;
     
 }
 
-.pag-1{
-    /* background-image:url(https://pa1.narvii.com/6663/68f37f971ca774e1b8fb5fbeb2fd873d07193733_hq.gif);
-    height: 90%;
-    width: ; */
+body{
+    background: rgb(175, 60, 60);
 }
-header{
-    background-color: rgb(60, 60, 60);
+ /* header navbar */
+ header{
+    background-color: #242424;
+    border-bottom: 1px solid rgb(72, 72, 72);
     height: 8% ;
     display: flex;
     align-items: center;
@@ -25,84 +37,70 @@ header{
     width: 100% ;
     z-index: 1000;
     position: fixed;
-   
 }
-
-a{
-    text-decoration: none;
-    color: white;
- 
-    
-}
-
-a:hover{
-    background-color: white;
-    color: red;
-    
-}
-
-
 nav{
     display: flex;
-    gap: 40px;
+    gap: 30px;
+    margin-right: 100px;
 }
-
-button{
-    background: rgb(28, 28, 28);
-   width: 200%;
-   height: 40px;
-   border: 2px solid red;
-   border-radius: 15px;
-   color:red;
-   margin-bottom: 10%;
-   margin-left: -110%;
-}
-
-button:hover{
-    background: red;
-    color: white ;
-}
-
-.social-midia{
-   display: grid;
-    
-}
-
-h1{
+a{
+    font-size: 14px;
+    text-decoration: none;
     color: white;
-    font-size: 30px;
-    
 }
-
-.h1-name{
-    color:red;
+a:hover{
+    background-color: white;
+    color: rgb(21, 115, 255);
 }
-
-.h1-welcome{
-    color: red;
-}
-main{
+ /* fim */
+ /* main pag1 */
+.pag-1{
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    
-
+    justify-content: center;
 }
-.paragrafo-pag1{
+/* .desingn{
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    background-color: rgb(21, 115, 255);
+    height: 100vh;
     width: 60%;
-    margin-right: 70px;
-}
+    clip-path: polygon(50% 0%, 0% 50%, 50% 100%);
+} */
 .main-pag1{
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     height: 100vh;
+    width: 100%;
+    background-color: #242424;
+  
+}
+h1{
+    color: white;
+    font-size: 48px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+button{
+    color: rgb(21, 115, 255);
+    background-color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.paragrafo-pag1{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   margin-left: 200px;
 }
 
-
-
-/* Habilidades */
+/* Habilidades pag2 */
 
 
 .pag-2{
@@ -114,9 +112,8 @@ main{
 }
 
 h3{
-    color: rgb(0, 85, 255);
-    border: 2px solid rgb(0, 85, 255);
-    background-color: rgba(29, 29, 29, 0.478);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     margin-top: 60px;
     font-size: 200%;
     display: flex;
@@ -124,7 +121,7 @@ h3{
     align-items: center;
     width: 20%;
     height: 80px;
-    border-radius: 15px;
+   
 }
 .img-habilidades{
     justify-content: center;
