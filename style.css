@@ -86,12 +86,18 @@ p{
     font-size: 20px;
 }
 button{
-    color: rgb(21, 115, 255);
-    background-color: white;
+    color: white;
+    background-color: #242424;
     width: 120px;
     height: 40px;
     border: none;
     border-radius: 10px;
+    border: 1px solid rgb(21, 115, 255);
+}
+button:hover{
+    background-color: white;
+    color: rgb(21, 115, 255);
+    border: none;
 }
 .paragrafo-pag1{
    display: flex;
