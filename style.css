@@ -75,11 +75,10 @@ p{
 }
 button{
     color: white;
-    background-color: #242424;
+    background-color: #82baff;
     width: 120px;
     height: 40px;
     border: none;
-    border-radius: 10px;
     border: 1px solid rgb(21, 115, 255);
 }
 button:hover{
@@ -110,6 +109,15 @@ h3{
     align-items: center;
     width: 20%;
     height: 80px;
+}
+.button-framework{
+    background-color: rgb(255, 127, 234);
+}
+.button-frontend{
+    background-color: rgb(131, 200, 237);
+}
+.button-bancodedados{
+    background-color: rgb(255, 87, 87);
 }
 .mapa-mental{
     display: flex;
