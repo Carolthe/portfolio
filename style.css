@@ -110,7 +110,7 @@ h3{
     width: 20%;
     height: 80px;
 }
-.button-framework{
+/* .button-framework{
     background-color: rgb(255, 127, 234);
 }
 .button-frontend{
@@ -118,7 +118,7 @@ h3{
 }
 .button-bancodedados{
     background-color: rgb(255, 87, 87);
-}
+} */
 .mapa-mental{
     display: flex;
     justify-content: center;
