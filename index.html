@@ -16,6 +16,11 @@
             <a href="#section3">Projetos</a>
             <a href="#section4">Contatos</a>
         </nav>
+        <div class="container">
+            <p class="btn">
+            </p>
+        </div>
+
     </header>
     <main class="main-pag1">
         <div class="paragrafo-pag1">
@@ -68,4 +73,13 @@
         </div>
     </section>
 </body>
+<script>
+    const btn = document.querySelector(".btn")
+    const container = document.querySelector(".container")
+
+    btn.onclick = function(){
+        // this.classList.toggle("active")
+        container.classList.toggle("active")
+    }
+</script>
 </html>

@@ -41,7 +41,7 @@ body{
 nav{
     display: flex;
     gap: 30px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 a{
     font-size: 14px;
@@ -52,6 +52,25 @@ a:hover{
     background-color: white;
     color: rgb(21, 115, 255);
 }
+.container{
+    width: 40px;
+    height: 25px;
+    background-color: white;
+    margin-right: 100px;
+    border-radius: 15px;
+    transform: scale(.9);
+}
+.container.active .btn{
+    left: 20px;
+}
+.btn{
+    width: 23px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: rgb(21, 115, 255);
+    
+}
+
  /* main pag1 */
 .pag-1{
     height: 100vh;
