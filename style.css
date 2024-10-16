@@ -25,6 +25,8 @@
 
 body{
     background: #191919;
+    transition: .5s;
+    color: white;
 }
  /* header navbar */
  header{
@@ -41,7 +43,7 @@ body{
 nav{
     display: flex;
     gap: 30px;
-    margin-right: 50px;
+    margin-right: 180px;
 }
 a{
     font-size: 14px;
@@ -49,8 +51,8 @@ a{
     color: white;
 }
 a:hover{
-    background-color: white;
-    color: rgb(21, 115, 255);
+    color: blue;
+ 
 }
 .container{
     width: 40px;
@@ -58,17 +60,29 @@ a:hover{
     background-color: white;
     margin-right: 100px;
     border-radius: 15px;
-    transform: scale(.9);
+    position: absolute;
 }
-.container.active .btn{
-    left: 20px;
+.container.dark{
+    background-color: #242424;
+    transition: .5s;
+}
+
+.container.dark .btn{
+    right: 0px;
+}
+body.dark{
+    background-color: #ededed;
+    color: #242424;
+}
+p.dark{
+  color: #242424;  
 }
 .btn{
     width: 23px;
     height: 25px;
     border-radius: 100%;
     background-color: rgb(21, 115, 255);
-    
+    position: absolute;
 }
 
  /* main pag1 */
@@ -84,11 +98,11 @@ a:hover{
     width: 100%;
 }
 h1{
-    color: white;
+    /* color: white; */
     font-size: 45px;
 }
 p{
-    color: white;
+    /* color: white; */
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -120,7 +134,7 @@ button:hover{
     justify-content: center;
 }
 h3{
-    color: white;
+    /* color: white; */
     margin-top: 60px;
     font-size: 27px;
     display: flex;
