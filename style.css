@@ -9,6 +9,10 @@
     background-color: rgb(60, 138, 255); /* Cor da parte móvel */
     border-radius: 10px; /* Bordas arredondadas */
 }
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(90, 156, 254);
+    cursor: pointer;
+}
 
 /* Estiliza a parte da barra de rolagem que não é coberta pela parte móvel */
 ::-webkit-scrollbar-track {
@@ -43,27 +47,29 @@ body{
 nav{
     display: flex;
     gap: 30px;
-    margin-right: 180px;
+    margin-right: 250px;
 }
 a{
     font-size: 14px;
     text-decoration: none;
     color: white;
+    transition: .5s;
 }
 a:hover{
-    color: blue;
- 
+    color: rgb(128, 179, 255);
+    cursor: pointer;
+  
 }
 .container{
     width: 40px;
     height: 25px;
-    background-color: white;
-    margin-right: 100px;
+    background-color: rgb(61, 61, 61);
+    margin-right: 160px;
     border-radius: 15px;
     position: absolute;
 }
 .container.dark{
-    background-color: #242424;
+    background-color: #b3d3ff;
     transition: .5s;
 }
 
@@ -83,6 +89,10 @@ p.dark{
     border-radius: 100%;
     background-color: rgb(21, 115, 255);
     position: absolute;
+}
+.btn:hover{
+    background-color:rgb(87, 154, 255);
+    cursor: pointer;
 }
 
  /* main pag1 */
@@ -108,16 +118,17 @@ p{
 }
 button{
     color: white;
-    background-color: #82baff;
+    background-color:rgb(60, 138, 255);
     width: 120px;
     height: 40px;
     border: none;
-    border: 1px solid rgb(21, 115, 255);
+    transition: .5s;
+    border-radius: 5px;
 }
 button:hover{
-    background-color: white;
-    color: rgb(21, 115, 255);
+    background-color: rgb(87, 154, 255);
     border: none;
+    cursor: pointer;
 }
 .paragrafo-pag1{
    display: flex;
