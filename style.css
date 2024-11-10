@@ -6,7 +6,7 @@
 
 /* Estiliza a parte que se move da barra de rolagem */
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(60, 138, 255); /* Cor da parte móvel */
+    background-color: #4EA8DE; /* Cor da parte móvel */
     border-radius: 10px; /* Bordas arredondadas */
 }
 ::-webkit-scrollbar-thumb:hover{
@@ -87,7 +87,7 @@ p.dark{
     width: 23px;
     height: 25px;
     border-radius: 100%;
-    background-color: rgb(21, 115, 255);
+    background-color: #4EA8DE;
     position: absolute;
 }
 .btn:hover{
@@ -118,7 +118,7 @@ p{
 }
 button{
     color: white;
-    background-color:rgb(60, 138, 255);
+    background-color:#4EA8DE;
     width: 120px;
     height: 40px;
     border: none;
@@ -130,11 +130,15 @@ button:hover{
     border: none;
     cursor: pointer;
 }
-.paragrafo-pag1{
+.apresentacao-pag1 {
    display: flex;
    flex-direction: column;
    margin-left: 200px;
 }
+.paragrafo-p{
+    color:#8284FA;
+}
+
 
 /* Habilidades pag2 */
 .pag-2{
