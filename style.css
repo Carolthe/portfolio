@@ -138,7 +138,10 @@ button:hover{
 .paragrafo-p{
     color:#8284FA;
 }
-
+/* Sobre mim */
+.sobremim-pag2{
+    height: 100vh;
+}
 
 /* Habilidades pag2 */
 .pag-2{
