@@ -1,19 +1,19 @@
 export default function Contacto (){
     return(
-        <div>
-            <p>Contact-me</p>
-            <p>Envie uma mensagem para o meu email atráves do formulário abaixo</p>
+        <div className="grid justify-items-center bg-[#f3f3f37b] px-[30px] mb-[100px] pt-[60px]">
+            <p className="text-[30px] mb-[15px]" >Contact-me</p>
+            <p className="text-center">Envie uma mensagem para o meu email atráves do formulário abaixo</p>
             <div>
-               <form>
-                <label>NAME</label>
-                <input placeholder="Escreva o seu nome" />
+               <form className="mt-[40px] ">
+                <label className="">NOME</label>
+                <input className="w-[330px] mt-[10px] mb-[15px] h-[45px] p-[15px] " placeholder="Escreva o seu nome" />
                 <label>NÚMERO PARA CONTACTO</label>
-                <input placeholder="Escreva o seu número" />
+                <input className="w-[330px] h-[45px] mt-[10px] mb-[15px] p-[15px]" placeholder="Escreva o seu número" />
                 <label>EMAIL</label>
-                <input placeholder="Escreva o seu email" />
+                <input className="w-[330px] h-[45px]  mt-[10px] mb-[15px] p-[15px]" placeholder="Escreva o seu email" />
                 <label>SUA MENSAGEM</label>
-                <input placeholder="Escreva sua mensagem" />
-                <button className="bg-[#FEC110] text-white w-[150px]"> Enviar mensagem</button>
+                <input className="w-[330px] h-[200px]  mt-[10px] mb-[15px] p-[15px] pb-[140px]" placeholder="Escreva sua mensagem" />
+                <button className="bg-[#FEC110] my-[40px] text-white h-[50px] w-[150px]"> Enviar mensagem</button>
                </form>
                 
             </div>
