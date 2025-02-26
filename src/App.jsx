@@ -1,20 +1,20 @@
 import './App.css'
-import Contacto from './pages/Contacto.jsx'
-import Ferramentas from './pages/Ferramentas.jsx'
-import Home from './pages/Home.jsx'
-import Projetos from './pages/Projetos.jsx'
-import Footer from './pages/Footer.jsx'
+import Home from './pages/Home'
+import Ferramentas from './pages/Ferramentas'
+import Projetos from './pages/Projetos'
+import Contacto from './pages/Contacto'
+import Footer from './pages/Footer'
 
 function App() {
   
 
   return (
     <div>
-      <Home/>
+      <Home />
       <Ferramentas/>
-      <Projetos/>
+      <Projetos />
       <Contacto />
-      <Footer />
+      <Footer/>
     </div>
   )
 }

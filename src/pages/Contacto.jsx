@@ -1,9 +1,9 @@
 export default function Contacto (){
     return(
-        <div className="grid justify-items-center bg-[#f3f3f37b] px-[30px] mb-[100px] pt-[60px]">
+        <div className="grid justify-items-center bg-[#f3f3f37b] px-[30px] mb-[100px] pt-[60px]" id="contactos">
             <p className="text-[30px] mb-[15px]" >Contact-me</p>
             <p className="text-center">Envie uma mensagem para o meu email atráves do formulário abaixo</p>
-            <div>
+            <div className="sm:w-[550px]">
                <form className="mt-[40px] ">
                 <label className="">NOME</label>
                 <input className="w-[100%] mt-[10px] mb-[15px] h-[45px] p-[15px] " placeholder="Escreva o seu nome" />
