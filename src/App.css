@@ -10,4 +10,12 @@ h1{
 }
 p{
   font-family: "Montserrat", sans-serif;
+  
+}
+#img-home{
+  background-image: url('./imgs/Blod.png');
+  background-size: cover;
+  width: 405px;
+  height: 300px;
+  padding-top: 120px;
 }
