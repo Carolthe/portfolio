@@ -1,7 +1,6 @@
 import { FaBars, FaX  } from "react-icons/fa6"
-
-import Blod2 from '../imgs/Blod2.png'
 import { useState } from "react"
+import Blod from '../imgs/Blod.png'
 
 export default function Home (){
 
@@ -34,15 +33,16 @@ export default function Home (){
                 </div>
                 </div>
             </div>
-            <div className="sm:flex sm:justify-center sm:gap-[120px] sm:pt-[110px] ">
-            <div className='grid justify-items-center items-center pt-[100px] sm:pt-0 sm:h-[50px] sm:mt-[90px]'>
-                <h1 className='font-bold text-[#2a2a2a] mt-[20%] flex text-center text-[40px] sm:ml-[33px] '>Caroline Tenorio</h1>
-                <p className='text-[#666666] text-[19px]'>Desenvolvedora de Software</p>
-                <button className='w-[270px] h-[60px] text-[19px] bg-[#73d6ef] text-white mt-[30px] mb-[20px] '>Contact-me</button>
+            <div className="sm:flex sm:justify-center sm:gap-[120px] sm:pt-[0px] sm:items-center sm:mx-[50px] ">
+            <div className='grid justify-items-center items-center pt-[100px] sm:pt-[0px] sm:flex-col sm:justify-items-start '>
+                <h1 className='font-bold text-[#2a2a2a] mt-[20%] flex text-center text-[40px]  sm:mt-[0px]  '>Caroline Tenorio</h1>
+                <p className='text-[#666666] text-[19px] '>Desenvolvedora de Software</p>
+                <button className='w-[270px] h-[60px] text-[19px] bg-[#73d6ef] text-white mt-[30px] mb-[20px]  '>Contact-me</button>
             </div>
-            <div className=" mt-[7%] ">
-                <div id="img-home"> <img className="" src={Blod2} />  </div>
-                
+            <div className="flex justify-center sm:h-[100vh] sm:items-center ">
+            <div className=" mt-[7%] sm:mt-[0]">
+            <img className="w-[350px] sm:w-[455px]" src={Blod} />
+            </div>
             </div>
             </div>
         </div>
