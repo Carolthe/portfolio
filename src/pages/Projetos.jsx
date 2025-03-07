@@ -1,4 +1,4 @@
-import Projects from '../imgs/Projects.png'
+import CardProjetos from '../components/CardProjetos'
 
 export default function (){
     return(
@@ -8,21 +8,18 @@ export default function (){
             <p className="mb-[40px]">Abaixo você vera alguns projetos desenvolvidos por mim</p>
         </div>
         <div    className=' sm:flex '>
-        <div className="bg-[#41b3d0] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]">
-            <img className='' src={Projects} />
-                <p className="text-[25px] font-semibold text-white " >Loja Virtual</p>
-                <p className='text-white'>Loja virtual para venda de moveis </p>
-            </div>
-            <div className="bg-[#eeee58] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]">
-            <img className='' src={Projects} />
-                <p className="text-[23px] font-semibold text-white " >Calculadora de Projetos</p>
-                <p className='text-white'>Loja virtual para venda de moveis </p>
-            </div>
-            <div className="bg-[#ea70f3] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]">
-            <img className='' src={Projects} />
-                <p className="text-[25px] font-semibold text-white " >Lista de Tarefas</p>
-                <p className='text-white'>Loja virtual para venda de moveis </p>
-            </div>
+                <CardProjetos 
+            className="bg-[#41b3d0] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]"
+            titulo="Todo List"
+            texto="Lista de Tarefas responsiva" />
+                <CardProjetos 
+            className="bg-[#eeee58] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]"
+            titulo="Todo List"
+            texto="Lista de Tarefas responsiva" />
+               <CardProjetos 
+            className="bg-[#ea70f3] h-[270px] w-[85%] rounded-[10px] mx-[20px] p-[30px] mb-[50px] sm:w-[30%]"
+            titulo="Todo List"
+            texto="Lista de Tarefas responsiva" />
             </div>
         </div>
     )
