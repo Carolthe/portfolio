@@ -1,4 +1,5 @@
-import { FaBars, FaX  } from "react-icons/fa6"
+import { FaBars, FaX, FaGlobe } from "react-icons/fa6"
+import { MdOutlineDarkMode } from "react-icons/md"
 import { useState } from "react"
 import Blod from '../imgs/Blod.png'
 
@@ -29,13 +30,13 @@ export default function Home ({ scrollToSection }){
             <p>Tradução Eng</p>
             <p>Modo Noite</p>
                 </div>
-            <div className="hidden sm:block sm:flex">
-            <button onClick={() => scrollToSection('section1')} className="sm:text-yellow-400 ">Home</button>
-            <p className="sm:text-yellow-400 ">Ferramentas</p>
-            <p className="sm:text-yellow-400 ">Projetos</p>
-            <p className="sm:text-yellow-400 ">Contactos</p>
-            <p className="sm:text-yellow-400 ">Tradução Eng</p>
-            <p className="sm:text-yellow-400 ">Modo Noite</p>
+            <div className="hidden sm:flex gap-[30px]">
+            <button onClick={() => scrollToSection('section1')} className="sm:text-[#666666]  ">Home</button>
+            <p className="sm:text-[#666666] ">Ferramentas</p>
+            <p className="sm:text-[#666666] ">Projetos</p>
+            <p className="sm:text-[#666666] ">Contactos</p>
+            <p className="text-[#73d6ef] text-[20px]"><FaGlobe /></p>
+            <p className="text-[#73d6ef] text-[20px]"><MdOutlineDarkMode /></p>
             </div>
                 </div>
             </div>
