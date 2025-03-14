@@ -31,10 +31,10 @@ export default function Home ({ scrollToSection }){
             <p>Modo Noite</p>
                 </div>
             <div className="hidden sm:flex gap-[30px]">
-            <button onClick={() => scrollToSection('section1')} className="sm:text-[#666666]  ">Home</button>
-            <p className="sm:text-[#666666] ">Ferramentas</p>
-            <p className="sm:text-[#666666] ">Projetos</p>
-            <p className="sm:text-[#666666] ">Contactos</p>
+            <button onClick={() => scrollToSection('section1')} className="sm:text-[#f5e213]  ">Home</button>
+            <p className="sm:text-[#f5e213] ">Ferramentas</p>
+            <p className="sm:text-[#f5e213]">Projetos</p>
+            <p className="sm:text-[#f5e213] ">Contactos</p>
             <p className="text-[#73d6ef] text-[20px]"><FaGlobe /></p>
             <p className="text-[#73d6ef] text-[20px]"><MdOutlineDarkMode /></p>
             </div>
