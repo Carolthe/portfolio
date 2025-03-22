@@ -3,7 +3,7 @@ import CardProjetos from '../components/CardProjetos'
 export default function (){
     return(
         <div className=' grid justify-items-center' id='projeto' >
-        <div className=" grid justify-items-center text-center mb-[25px] mx-[20px]">
+        <div className=" grid justify-items-center text-center my-[25px] mx-[20px]">
             <p className="mb-[20px] pt-[50px] text-[30px]">Projetos</p>
             <p className="mb-[40px]">Abaixo você vera alguns projetos desenvolvidos por mim</p>
         </div>

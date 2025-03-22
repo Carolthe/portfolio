@@ -61,15 +61,15 @@ export default function Home() {
                 to={item.to}
                 smooth={true}
                 duration={500}
-                className="sm:text-[#f5e213] cursor-pointer"
+                className="sm:text-[#000000] cursor-pointer"
               >
                 {item.name}
               </Link>
             ))}
-            <p className="text-[#73d6ef] text-[20px]">
+            <p className="text-[#000000] text-[18px]">
               <FaGlobe />
             </p>
-            <p className="text-[#73d6ef] text-[20px]">
+            <p className="text-[#000000] text-[20px]">
               <MdOutlineDarkMode />
             </p>
           </div>
